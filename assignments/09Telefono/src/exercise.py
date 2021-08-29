@@ -1,14 +1,14 @@
 def main():
     # escribe tu código abajo de esta línea
-    mensajes=int(input("Dame el número de mensajes: "))
-    megas=float(input("Dame el número de megas: "))
-    minutos=int(input("Dame el numero de minutos¨: "))
+    msj=int(input("Dame el número de mensajes: "))
+    m=float(input("Dame el número de megas: "))
+    min=int(input("Dame el numero de minutos¨: "))
 
-    msj=0.80*mensajes
-    m=0.80*megas
-    min=0.80*minutos
+    mensajes=0.80*msj
+    megas=0.80*m
+    minutos=0.80*min
 
-    mensualidad= msj+m+min
+    costomensual= mensajes+megas+minutos
     print("El costo mensual es:",mensualidad)
 
 

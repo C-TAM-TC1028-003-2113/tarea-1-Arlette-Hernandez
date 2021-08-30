@@ -7,6 +7,5 @@ def main():
     totaldecompra= juegosnuevos+juegosusados
     print("El total de la compra es:",totaldecompra)
 
-
 if __name__ == '__main__':
     main()
